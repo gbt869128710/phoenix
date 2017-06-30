@@ -1,0 +1,490 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html,
+body {
+  height: 100%;
+  font-family: 'Microsoft YaHei'; }
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none; }
+
+ol,
+ul,
+li {
+  list-style-type: none; }
+
+input {
+  outline: none; }
+
+.header {
+  width: 100%;
+  height: 720px;
+  background: url(../images/header.png) no-repeat center top;
+  overflow: hidden; }
+  .header .logo1 {
+    width: 483px;
+    height: 483px;
+    margin: 40px auto 15px auto; }
+  .header .ber {
+    width: 730px;
+    height: 68px;
+    background: url(../images/header3.png) no-repeat center top;
+    font-size: 16px;
+    color: #8e8073;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 20px; }
+
+.pingsu {
+  width: 895px;
+  height: 57px;
+  background: url(../images/pingsu1.png) no-repeat center top;
+  margin: 0 auto 65px auto; }
+  .pingsu .logo2 {
+    width: 103px;
+    height: 36px;
+    margin: 0 auto; }
+
+.center1 {
+  width: 1170px;
+  height: 330px;
+  margin: 66px auto;
+  overflow: hidden; }
+  .center1 .news {
+    width: 570px;
+    height: 330px;
+    float: left; }
+  .center1 .news-right {
+    width: 570px;
+    height: 330px;
+    float: right; }
+    .center1 .news-right .news-top {
+      width: 570px;
+      height: 70px;
+      color: #398ba8;
+      font-size: 30px;
+      text-decoration: none; }
+    .center1 .news-right .news-bottom {
+      width: 570px;
+      height: 220px;
+      margin-top: 30px; }
+      .center1 .news-right .news-bottom .horse {
+        width: 270px;
+        height: 220px;
+        float: left; }
+      .center1 .news-right .news-bottom .suxiu {
+        width: 275px;
+        height: 220px;
+        font-size: 14px;
+        line-height: 30px;
+        float: right;
+        color: #666666; }
+
+.yixitan {
+  width: 895px;
+  height: 57px;
+  background: url(../images/yixitan1.png) no-repeat center top;
+  margin: 65px auto 45px auto; }
+  .yixitan .logo3 {
+    width: 160px;
+    height: 36px;
+    margin: 0 auto; }
+
+.center2 {
+  width: 1170px;
+  height: 460px;
+  margin: 0 auto; }
+  .center2 .left {
+    width: 370px;
+    height: 460px;
+    float: left; }
+    .center2 .left .lineage {
+      width: 370px;
+      height: 140px;
+      margin-top: 20px; }
+  .center2 .right {
+    width: 770px;
+    height: 460px;
+    float: right;
+    margin-top: 20px; }
+    .center2 .right .should {
+      width: 770px;
+      height: 460px; }
+
+.feiyi {
+  width: 895px;
+  height: 57px;
+  background: url(../images/feiyi.png) no-repeat center top;
+  margin: 65px auto; }
+  .feiyi .logo4 {
+    width: 104px;
+    height: 36px;
+    margin: 0 auto; }
+
+.center3 {
+  width: 1170px;
+  height: 330px;
+  margin: 0 auto; }
+  .center3 .history1,
+  .center3 .history2,
+  .center3 .history3 {
+    width: 370px;
+    height: 330px; }
+    .center3 .history1 .top,
+    .center3 .history2 .top,
+    .center3 .history3 .top {
+      width: 370px;
+      height: 89px;
+      font-size: 24px;
+      line-height: 89px;
+      text-align: center;
+      background: #fed3b7; }
+      .center3 .history1 .top a,
+      .center3 .history2 .top a,
+      .center3 .history3 .top a {
+        color: #c07240; }
+    .center3 .history1 .records,
+    .center3 .history2 .records,
+    .center3 .history3 .records {
+      width: 368px;
+      height: 239px;
+      border: 1px solid #fed3b7; }
+      .center3 .history1 .records p,
+      .center3 .history2 .records p,
+      .center3 .history3 .records p {
+        height: 120px;
+        margin: 30px 20px;
+        color: #666666;
+        font-size: 14px;
+        line-height: 24px; }
+      .center3 .history1 .records .plus,
+      .center3 .history2 .records .plus,
+      .center3 .history3 .records .plus {
+        width: 23px;
+        height: 23px;
+        background: url(../images/+.png) no-repeat center top;
+        font-family: "iconfont";
+        margin: 0 auto; }
+  .center3 .history1 {
+    float: left; }
+  .center3 .history2 {
+    float: left;
+    margin-left: 30px; }
+  .center3 .history3 {
+    float: right; }
+
+.minxiu {
+  width: 895px;
+  height: 57px;
+  background: url(../images/minxiu.png) no-repeat center top;
+  margin: 65px auto; }
+  .minxiu .logo5 {
+    width: 104px;
+    height: 36px;
+    margin: 0 auto; }
+
+.swiper-container {
+  width: 1170px;
+  height: 656px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+  .swiper-container .swiper-wrapper {
+    height: 656px;
+    position: absolute;
+    left: 0;
+    top: 0; }
+    .swiper-container .swiper-wrapper .swiper-slide {
+      width: 1170px;
+      height: 656px;
+      float: left;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center; }
+  .swiper-container .state {
+    width: 1170px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 80px;
+    color: #fff;
+    font-size: 14px;
+    text-indent: 28px;
+    display: none; }
+  .swiper-container .swiper-button-prev {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    margin-top: -28px; }
+  .swiper-container .swiper-button-next {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -28px; }
+
+.activity {
+  width: 895px;
+  height: 57px;
+  background: url(../images/huodong.png) no-repeat center top;
+  margin: 65px auto; }
+  .activity .logo6 {
+    width: 104px;
+    height: 36px;
+    margin: 0 auto; }
+
+.bottom {
+  width: 1170px;
+  height: 380px;
+  margin: 0 auto 75px auto; }
+  .bottom .bottom-top {
+    width: 1170px;
+    height: 160px;
+    margin-top: 30px; }
+    .bottom .bottom-top .epic1,
+    .bottom .bottom-top .epic2 {
+      width: 170px;
+      height: 160px;
+      float: left; }
+      .bottom .bottom-top .epic1 .up,
+      .bottom .bottom-top .epic2 .up {
+        width: 170px;
+        height: 60px;
+        background: #f0eeeb;
+        line-height: 60px;
+        text-align: center;
+        font-size: 12px;
+        font-size: 1.2rem;
+        color: #ab8e73; }
+      .bottom .bottom-top .epic1 .down,
+      .bottom .bottom-top .epic2 .down {
+        width: 170px;
+        height: 100px;
+        background: #e9e4e0;
+        line-height: 24px;
+        text-align: center;
+        overflow: hidden; }
+        .bottom .bottom-top .epic1 .down p,
+        .bottom .bottom-top .epic2 .down p {
+          width: 140px;
+          font-size: 12px;
+          font-size: 1.2rem;
+          margin-left: 15px;
+          margin-top: 15px; }
+    .bottom .bottom-top .epic2 {
+      margin-left: 30px; }
+
+@media screen and (max-width: 970px) {
+  .header {
+    height: auto;
+    padding: 10px 0; }
+    .header .logo1 {
+      width: 60%;
+      height: auto; }
+    .header .ber {
+      width: auto;
+      height: auto;
+      margin: 10px auto;
+      border: 1px solid #b5a392;
+      border-radius: 10px;
+      margin: 0 20px;
+      background: #fff; }
+
+  .pingsu {
+    width: 90%;
+    margin: 30px auto; }
+    .pingsu .logo2 {
+      width: 30%;
+      height: auto;
+      margin: 20px auto; }
+
+  .center1 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden; }
+    .center1 .news {
+      width: 100%;
+      height: auto; }
+    .center1 .news-right {
+      width: 100%;
+      height: auto; }
+      .center1 .news-right .news-top {
+        width: 100%;
+        height: auto; }
+      .center1 .news-right .news-bottom {
+        width: 100%;
+        height: auto;
+        margin-top: 30px; }
+        .center1 .news-right .news-bottom .horse {
+          width: 80%;
+          height: auto; }
+        .center1 .news-right .news-bottom .suxiu {
+          width: 100%;
+          height: auto; }
+
+  .yixitan {
+    width: 90%;
+    margin: 30px auto; }
+    .yixitan .logo3 {
+      width: 40%;
+      height: auto;
+      margin: 0 auto; }
+
+  .center2 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden; }
+    .center2 .left {
+      width: 100%;
+      height: auto; }
+      .center2 .left .lineage {
+        width: 100%;
+        height: auto;
+        margin-top: 20px; }
+    .center2 .right {
+      width: 100%;
+      height: auto;
+      margin-top: 20px; }
+      .center2 .right .should {
+        width: 100%;
+        height: auto; }
+
+  .feiyi {
+    width: 90%;
+    margin: 30px auto; }
+    .feiyi .logo4 {
+      width: 40%;
+      height: auto;
+      margin: 0 auto; }
+
+  .center3 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden; }
+    .center3 .history1,
+    .center3 .history2,
+    .center3 .history3 {
+      width: 100%;
+      margin-top: 30px; }
+      .center3 .history1 .top,
+      .center3 .history2 .top,
+      .center3 .history3 .top {
+        width: 100%;
+        font-size: 24px;
+        line-height: 89px;
+        text-align: center;
+        background: #fed3b7; }
+        .center3 .history1 .top a,
+        .center3 .history2 .top a,
+        .center3 .history3 .top a {
+          color: #c07240; }
+      .center3 .history1 .records,
+      .center3 .history2 .records,
+      .center3 .history3 .records {
+        width: 100%;
+        border: 1px solid #fed3b7; }
+        .center3 .history1 .records p,
+        .center3 .history2 .records p,
+        .center3 .history3 .records p {
+          height: auto;
+          margin: 20px 20px;
+          color: #666666;
+          font-size: 16px;
+          line-height: 24px; }
+    .center3 .history2 {
+      margin: inherit;
+      margin-top: 30px; }
+
+  .minxiu {
+    width: 90%;
+    height: auto;
+    margin: 65px auto; }
+    .minxiu .logo5 {
+      width: 50%;
+      height: auto;
+      margin: 0 auto; }
+
+  .swiper-container {
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+    overflow: hidden; }
+    .swiper-container .swiper-wrapper {
+      height: auto; }
+      .swiper-container .swiper-wrapper .swiper-slide {
+        width: 100%;
+        height: auto; }
+    .swiper-container .swiper-button-prev,
+    .swiper-container .swiper-button-next {
+      display: none; }
+
+  .activity {
+    width: 90%;
+    height: auto;
+    margin: 65px auto; }
+    .activity .logo6 {
+      width: 50%;
+      height: auto;
+      margin: 0 auto; }
+
+  .bottom {
+    width: 100%;
+    height: auto;
+    overflow: hidden; }
+    .bottom .bottom-top {
+      width: 45%;
+      height: auto;
+      float: left;
+      margin-left: 3%;
+      overflow: hidden; }
+      .bottom .bottom-top .epic1,
+      .bottom .bottom-top .epic2 {
+        width: 100%;
+        height: auto;
+        line-height: 100%;
+        margin-top: 3%;
+        margin: inherit; }
+        .bottom .bottom-top .epic1 .up,
+        .bottom .bottom-top .epic2 .up {
+          width: 100%;
+          line-height: 150%;
+          text-align: center;
+          padding-top: 15%; }
+          .bottom .bottom-top .epic1 .up p,
+          .bottom .bottom-top .epic2 .up p {
+            width: 90%;
+            margin: 0 auto; }
+        .bottom .bottom-top .epic1 .down,
+        .bottom .bottom-top .epic2 .down {
+          width: 100%;
+          line-height: 150%;
+          text-align: center; }
+          .bottom .bottom-top .epic1 .down p,
+          .bottom .bottom-top .epic2 .down p {
+            width: 75%;
+            margin: 0 auto;
+            margin-top: 8%; } }
+
+/*# sourceMappingURL=works1.css.map */
